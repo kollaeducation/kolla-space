@@ -279,7 +279,7 @@
 	color: #fff;
 	font-size: 12px;
 	text-transform: uppercase;
-	background: #50c9d4;
+	background: #e7c042;
 	padding: 9px 30px;
 	border-radius: 3px;
 	white-space: nowrap;
@@ -382,7 +382,7 @@
 	transition: all 0.3s ease;
 }
 .button.twentyfive:hover {
-	color: #50c9d4;
+	color: #e7c042;
 }
 .button.twentyfive i {
 	color: #ccc;
@@ -981,7 +981,7 @@
 	font-weight: 800;
 }
 .stcode_title14 .line{
-    background: #50c9d4;
+    background: #e7c042;
     height: 2px;
     display: block;
     bottom: 0px;

@@ -361,7 +361,7 @@
 #owl-demo16 .item .who {
 	width: 100%;
 	padding: 22px 0px 25px 0px;
-	background: #f3f3f3;
+	background: #fffcdd;
 	text-align: left;
 }
 #owl-demo16 .item .who img {
@@ -371,7 +371,7 @@
 	border-radius: 100%;
 }
 #owl-demo16 .item .who strong {
-	color: #3e9cd0;
+	color: #e7c042;
 	font-weight: 600;
 	line-height: 14px;
 }

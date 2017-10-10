@@ -39,6 +39,10 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.testimony-video{
+    width: 100%;
+    height: 450px;
+}
 .calendar{
     margin: 10px 0px;
 }
@@ -2328,7 +2332,7 @@
 	border-right: 1px solid #e3e3e3;
 }
 .featured_section21 .container .box a {
-	color: #50c9d4;
+	color: #e7c042;
 	font-size: 13px;
 	transition: all 0.3s ease;
 }
@@ -2472,7 +2476,7 @@
 	float: left;
 	width: 100%;
 	text-align: right;
-	background: #50c9d4;
+	background: #e7c042;
 	padding: 65px 0px 53px 0px;
 }
 .featured_section25 h1 {
@@ -2507,7 +2511,7 @@
 	width: 100%;
 }
 .featured_section26 i {
-	color: #50c9d4;
+	color: #e7c042;
 	font-size: 35px;
 	float: left;
 	margin: 5px 0px 0px 0;
@@ -2550,7 +2554,7 @@
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
-	background: #50c9d4;
+	background: #e7c042;
 	margin-left: 25px;
 	margin-top: 7px;
 	margin-bottom: 30px;
@@ -2565,7 +2569,7 @@
 	text-align: center;
 	vertical-align: middle;
 	line-height: 50px;
-	background: #50c9d4;
+	background: #e7c042;
 	margin-right: 25px;
 	margin-top: 7px;
 	margin-bottom: 30px;
@@ -2630,7 +2634,7 @@
 
 .featured_section29 .highlight {
 	color: #fff;
-	background: #50c9d4;
+	background: #e7c042;
 	border: 7px solid #39afba;
 	padding-top: 62px;
 	padding-bottom: 62px;
@@ -2684,7 +2688,7 @@
 	width: 100%;
 	padding: 35px 0px 30px 0px;
 	text-align: center;
-	background: #50c9d4;
+	background: #e7c042;
 }
 .featured_section31 h2 {
 	color: #fff;
@@ -2985,7 +2989,7 @@
 }
 .featured_section40.two i {
 	color: #fff;
-	background: #50c9d4;
+	background: #e7c042;
 }
 .featured_section40.two i:hover {
 	color: #fff;
@@ -5119,7 +5123,7 @@
 	padding: 80px 75px;
 	text-align: center;
 	color: #fff;
-	background: #50c9d4;
+	background: #e7c042;
 }
 .featured_section101 .box.two {
 	opacity: 0.7;
@@ -6944,7 +6948,7 @@
 .parallax_section3 .left li:hover i,
 .parallax_section3 .right li:hover i {
 	color: #fff;
-	background-color: #50c9d4;
+	background-color: #e7c042;
 }
 
 
@@ -6995,10 +6999,10 @@
 	transition: all 0.3s ease;
 }
 .parallax_section4 .one_fourth:hover .outline {
-	border: 2px solid #50c9d4;
+	border: 2px solid #e7c042;
 }
 .parallax_section4 .one_fourth:hover .circle {
-	background: #50c9d4;
+	background: #e7c042;
 }
 
 /* parallax section 5 */
@@ -7203,11 +7207,11 @@
 	margin: 21px 0 2px 0;
 }
 .parallax_section10 .one_fourth p {
-	color: #50c9d4;
+	color: #e7c042;
 	margin: 0 0 14px 0;
 }
 .parallax_section10 .one_fourth a:hover {
-	color: #50c9d4;
+	color: #e7c042;
 	transition: all 0.3s ease;
 }
 .parallax_section10 .one_fourth i {
@@ -7441,14 +7445,14 @@
 	font-size: 16px;
 	font-weight: 500;
 	padding: 14px 35px;
-	background: #50c9d4;
+	background: #e7c042;
 	border-radius: 3px;
 	text-transform: uppercase;
 	margin: -5px 0px 0 0px;
 	transition: all 0.3s ease;
 }
 .parallax_section17 a:hover {
-	color: #50c9d4;
+	color: #e7c042;
 	background: #fff;
 }
 
@@ -7748,7 +7752,7 @@ ul.faddress {
 .newsletter2 .input_submit {
 	float: left;
 	padding: 13px 25px 14px 25px;
-	background-color: #50c9d4;
+	background-color: #e7c042;
 	border: 0px;
 	font-size: 16px;
 	font-weight: normal;
@@ -7795,7 +7799,7 @@ ul.faddress {
 }
 
 .newsletter3 .input_submit.color2 {
-	background-color: #50c9d4;
+	background-color: #e7c042;
 }
 
 
@@ -7983,7 +7987,7 @@ ul.footer_social_links {
 
 .footer_social_links.three li a i {
 	color: #fff;
-	background-color: #50c9d4;
+	background-color: #e7c042;
 	width: 28px;
 	height: 28px;
 	line-height: 28px;
@@ -8318,7 +8322,7 @@ ul.footer_social_links5 {
 }
 .footer6 .column2 ul {
 	float: left;
-	padding: 0;
+	padding-right: 10px;
 	margin: 0;
 }
 .footer6 .column2 li {
@@ -8380,7 +8384,7 @@ ul.footer_social_links5 {
 	border-top: 10px solid #eb9532;
 }
 .footer7.three {
-	border-top: 10px solid #50c9d4;
+	border-top: 10px solid #e7c042;
 }
 
 .footer7 h4 {
@@ -8491,7 +8495,7 @@ ul.footer_social_links5 {
 	width: 30px;
 	height: 2px;
 	margin-bottom: 12px;
-	background: #50c9d4;
+	background: #e7c042;
 }
 
 .title25 {
@@ -8510,13 +8514,13 @@ ul.footer_social_links5 {
 	margin: 14px auto 0 auto;
 	width: 90px;
 	height: 2px;
-	background: #50c9d4;
+	background: #e7c042;
 }
 .title252 .line2 {
 	margin: 14px 0 0 0;
 	width: 90px;
 	height: 2px;
-	background: #50c9d4;
+	background: #e7c042;
 }
 .title25 .line.white {
 	background: #fff;
@@ -8748,10 +8752,9 @@ ul.footer_social_links5 {
 }
 .client_logos3 li {
 	float: left;
-	width: 15%;
 	padding: 20px 0px;
 	text-align: center;
-	margin: 0 0px 0px 0;
+	margin: 0 10px 0px 10px;
 	vertical-align: middle;
 }
 .client_logos3 li.last {
@@ -8819,7 +8822,7 @@ ul.footer_social_links5 {
 	float: left;
 	width: 80px;
 	height: 2px;
-	background: #50c9d4;
+	background: #e7c042;
 }
 
 .hsmline7 {
