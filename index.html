@@ -1,94 +1,572 @@
 ﻿<!doctype html>
 <html lang="en-gb" class="no-js">
 <head>
-	<title>KollaSpace</title>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="keywords" content="" />
-	<meta name="description" content="" />
+    <title>KollaSpace</title>
+    <link rel="icon" type="image/png" href="images/icon-kolla-32-px/icon-kolla-space.png" sizes="32x32">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="img/icon-kolla/icon-kolla-space.png" sizes="32x32">
     <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-    <link  rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' />
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' />
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' />
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/simpleline-icons/simple-line-icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/et-linefont/etlinefont.css" />
     <link rel="stylesheet" type="text/css" media="all" href="js/animations/css/animations.min.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="css/responsive-leyouts.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/shortcodes.css" /> 
-    <link rel="stylesheet" type="text/css" media="screen" href="js/comingsoon/csoon.css" /> 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
-	<script type="text/javascript" src="js/comingsoon/jquery.bcat.bgswitcher.js"></script>
+    <link rel='stylesheet' type='text/css' href="js/mainmenu/bootstrap.min.css" />
+    <link rel='stylesheet' type='text/css' href="js/mainmenu/demo.css" />
+    <link rel='stylesheet' type='text/css' href="js/mainmenu/menu12.css" />
+    <link rel='stylesheet' type='text/css' href="js/carouselowl/owl.transitions.css" />
+    <link rel='stylesheet' type='text/css' href="js/carouselowl/owl.carousel.css" />
+    <link rel="stylesheet" type='text/css' href="js/masterslider/style/masterslider2.css" />
+    <link rel="stylesheet" type='text/css' href="js/masterslider/skins/default/style.css" />
+    <link rel="stylesheet" type='text/css' href='js/masterslider/style/ms-tabs-style2.css' />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive-leyouts.css" />
     <script>
-    $(document).ready(function() {
-      $('.flipTimer').flipTimer({ direction: 'down', date: 'December 1, 2017 08:30:30', callback: function() { alert('times up!'); } });
-    });
-  </script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-104353031-1', 'auto');
+      ga('send', 'pageview');
+    </script>
 </head>
+
 <body>
-<div id="bg-body">
-</div>
-<script type="text/javascript">
-var srcBgArray = ["img/coming-soon-slider/img-slider-1.jpg","img/coming-soon-slider/img-slider-2.jpg","img/coming-soon-slider/img-slider-3.jpg","img/coming-soon-slider/img-slider-4.jpg","img/coming-soon-slider/img-slider-5.jpg"];
-
-$(document).ready(function() {
-  $('#bg-body').bcatBGSwitcher({
-    urls: srcBgArray,
-    alt: 'Full screen background image',
-    links: true,
-    prevnext: true
-  });
-});
-</script>
-
-<script>
-function validateForm() {
-    var x = document.forms["myForm"]["email"].value;
-    var atpos = x.indexOf("@");
-    var dotpos = x.lastIndexOf(".");
-    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
-        alert("Not a valid e-mail address");
-        return false;
-    }
-}
-</script>
-<div class="site_wrapper">
-    <div class="comingsoon_page">
-        <div class="container">
-            <div class="comingsoon-white">
-                <div class="topcontsoon">
-                	<img class="logo_kolla" src="img/logo-kolla/logo-kolla-space.png" alt="" />
-                    <div class="clearfix"></div>
-                    <h5>We're Launching Soon</h5>
-                </div>
-                <div class="countdown_dashboard">
-                    <div class="flipTimer">
-                        <div class="days"></div>
-                        <div class="hours"></div>
-                        <div class="minutes"></div>
-                        <div class="seconds"></div>
-                        <div class="clearfix"></div>
-                        <div class="fttext">DAYS</div>
-                        <div class="fttext">HRS</div>
-                        <div class="fttext">MIN</div>
-                        <div class="fttext">SEC</div>
+    <div class="site_wrapper">
+        <header class="header">
+            <div class="container_fhstyle2">
+                <div class="logo2"><a href="/" id="logo12"></a></div>
+                <div class="menu_main rslinks7">
+                    <div class="navbar yamm navbar-default">
+                        <div class="navbar-header">
+                            <div class="navbar-toggle .navbar-collapse .pull-right " data-toggle="collapse" data-target="#navbar-collapse-1"  >
+                                <span>Menu</span>
+                                <button type="button" > <i class="fa fa-bars"></i></button>
+                            </div>
+                        </div>
+                        <div id="navbar-collapse-1" class="navbar-collapse collapse pull-right">
+                            <nav>
+                                <ul class="nav navbar-nav">
+                                    <li class="dropdown"> <a href="http://www.kolla.id" target="_blank">Kolla</a>
+                                    </li>
+                                    <li class="dropdown"> <a href="/" class="active">Home</a>
+                                    </li>
+                                    <li class="dropdown"><a href="about.html" >About</a>
+                                    </li>
+                                    <li class="dropdown yamm"> <a href="#" >Facilities</a>
+                                        <ul class="dropdown-menu">
+                                        <li> 
+                                        <div class="yamm-content" style="width: 440px;">
+                                          <div class="row">
+                                            <ul class="col-sm-6 col-md-6 list-unstyled">
+                                                <li>
+                                                    <p>Kolla Sabang</p>
+                                                </li>
+                                                 <li>
+                                                    <strong>Nomad Desk</strong>
+                                                </li>
+                                                <li><a href="coding-mum-regular"><i class="fa fa-angle-right"></i>Nomad Desk</a></li>
+                                                 <li>
+                                                    <strong>Meeting Room</strong>
+                                                </li>
+                                                <li><a href="kolla-sabang/honai-room"><i class="fa fa-angle-right"></i>Honai Room</a></li>
+                                                <li><a href="kolla-sabang/iglo-room"><i class="fa fa-angle-right"></i>Iglo Room</a></li>
+                                                <li><a href="kolla-sabang/yurt-room"><i class="fa fa-angle-right"></i>Yurt Room</a></li>
+                                                <li><a href="kolla-sabang/agora-room"><i class="fa fa-angle-right"></i>Agora Room</a></li>
+                                                <li>
+                                                    <strong>Event Room</strong>
+                                                </li>
+                                                <li><a href="kolla-sabang/nomadtorium"><i class="fa fa-angle-right"></i>Nomadtorium</a></li>
+                                                <li><a href="kolla-sabang/nomad-mini-room"><i class="fa fa-angle-right"></i>Nomad Mini Room</a></li>
+                                                <li><a href="kolla-sabang/nomad-hall-space"><i class="fa fa-angle-right"></i>Nomad Hall Space</a></li>
+                                                <li>
+                                                    <strong>Private Office</strong>
+                                                </li>
+                                                <li><a href="kolla-sabang/private-office"><i class="fa fa-angle-right"></i>Private Office</a></li>
+                                                <li>
+                                                    <strong>Other Facilities</strong>
+                                                </li>
+                                            </ul>
+                                            <ul class="col-sm-6 col-md-6 list-unstyled">
+                                                <li>
+                                                   <p>Kolla Kedoya</p>
+                                                </li>
+                                                 <li>
+                                                    <strong>Nomad Desk</strong>
+                                                </li>
+                                                <li><a href="kolla-kedoya/nomad-desk"><i class="fa fa-angle-right"></i>Nomad Desk</a></li>
+                                                <li>
+                                                   <strong>Meeting Room</strong>
+                                                </li>
+                                                <li><a href="kolla-kedoya/iglo-room"><i class="fa fa-angle-right"></i>Iglo Room</a></li>
+                                                <li>
+                                                    <strong>Private Office</strong>
+                                                </li>
+                                                <li><a href="kolla-kedoya/private-office"><i class="fa fa-angle-right"></i>Private Office</a></li>
+                                                <li>
+                                                    <strong>Other Facilities</strong>
+                                                </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                        </li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"> <a href="blog.html" class="dropdown-toggle">Events </a>
+                                    </li>
+                                    <li class="dropdown"><a href="contact.html" class="dropdown-toggle">Partner</a>
+                                    </li>
+                                    <li class="dropdown"><a href="daftar-kelas.html" class="dropdown-toggle">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
                     </div>
                 </div>
-                <div class="clearfix"></div>
-                <div class="socialiconssoon">
-                    <p>Our website is under construction. We'll be here soon with our new awesome site. Get best experience with this one.</p>
-                    <div class="clearfix margin_top3"></div>
-                    <div class="margin_top3"></div>
-                    <a href="https://www.facebook.com/kollaliving" target="_blank"><i class="fa fa-facebook"></i></a>
-                    <a href="https://twitter.com/KollaLiving" target="_blank"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/kollaliving" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/company/kolla-space" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </header>
+        <!--Slider START-->    
+            <div class="slidermar">
+                    <div class="ms-tabs-template">
+                        <div class="master-slider ms-skin-default" id="masterslider">
+                            <div class="ms-slide">
+                                <img src="images/images-slider-kolla-edu/kolla-education-slider-program-coding-mum-bekraf.png" alt=""/>  
+                                <h3 class="ms-layer text11 caps"
+                                style="left: 20px; top: 150px;"
+                                data-type="text"
+                                data-effect="top(45)"
+                                data-duration="2000"
+                                data-delay="100"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding Mum Bekraf
+                                </h3>
+                                <h5 class="ms-layer text3"
+                                style="left: 20px; top: 210px;"
+                                data-type="text"
+                                data-effect="bottom(45)"
+                                data-duration="2000"
+                                data-delay="500"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding Mum merupakan gerakan sosial diharapkan mampu membuka perspektif baru tentang keterlibatan perempuan dalam dunia teknologi.
+                                </h5>
+                                <a class="ms-layer sbut2 white2"
+                                style="left: 20px; top: 320px;"
+                                data-type="text"
+                                data-delay="1000"
+                                data-ease="easeOutExpo"
+                                data-duration="1200"
+                                data-effect="scale(1.5,1.6)"
+                                href="coding-mum-bekraf" 
+                                >
+                                    Lihat Lebih Detail &nbsp;<i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="ms-thumb">
+                                    <h6>Coding Mum Bekraf<em>Programming Class For Mum</em></h6>
+                                </div>
+                            </div>
+                            <div class="ms-slide">
+                                <img src="images/images-slider-kolla-edu/kolla-education-slider-program-go-schollar.jpg" alt=""/>  
+                                <a class="ms-layer sbut2"
+                                style="right: 20px;bottom:30px;text-align: center;"  
+                                data-type="text"
+                                data-delay="500"
+                                data-ease="easeOutExpo"
+                                data-duration="1200"
+                                data-effect="scale(1.5,1.6)"
+                                href="go-scholartech-ror"
+                                target="_blank" 
+                                >
+                                   Apa itu Go ScholarTech ?</i>
+                                </a>
+                                <div class="ms-thumb">
+                                    <h6>Go Scholar Tech Ruby On Rails<em>Programming Class Ruby On Rails</em></h6>
+                                </div>
+                            </div>
+                            <div class="ms-slide">
+                                <img src="images/images-slider-kolla-edu/kolla-education-slider-program-coding-mum-regular.jpg" alt=""/> 
+                                <h3 class="ms-layer text11 caps"
+                                style="left: 20px; top: 140px;"
+                                data-type="text"
+                                data-effect="top(45)"
+                                data-duration="2000"
+                                data-delay="100"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding Mum Regular
+                                </h3>
+                                <h5 class="ms-layer text3"
+                                style="left: 20px; top: 200px;"
+                                data-type="text"
+                                data-effect="bottom(45)"
+                                data-duration="2000"
+                                data-delay="500"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding Mum Regular merupakan upaya KollaSpace dalam membuka kesempatan bagi perempuan terutama ibu-ibu untuk ikut keterlibatan berkarya dalam dunia teknologi.
+                                </h5>
+                                <a class="ms-layer sbut2"
+                                style="left: 20px; top: 320px; background-color: yellow; color: black;"
+                                data-type="text"
+                                data-delay="1000"
+                                data-ease="easeOutExpo"
+                                data-duration="1200"
+                                data-effect="scale(1.5,1.6)"
+                                href="coding-mum-regular" 
+                                >
+                                    Ikuti Trial Class Gratis! &nbsp;<i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="ms-thumb">
+                                    <h6>Coding Mum Regular<em>Programming Class For Mum</em></h6>
+                                </div>
+                            </div>
+                            <div class="ms-slide">
+                                <img src="images/images-slider-kolla-edu/kolla-education-slider-program-coding-teen.jpg" alt=""/> 
+                                <h3 class="ms-layer text11 caps"
+                                style="left: 20px; top: 140px;"
+                                data-type="text"
+                                data-effect="top(45)"
+                                data-duration="2000"
+                                data-delay="100"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding Teen
+                                </h3>
+                                <h5 class="ms-layer text3"
+                                style="left: 20px; top: 200px;"
+                                data-type="text"
+                                data-effect="bottom(45)"
+                                data-duration="2000"
+                                data-delay="500"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding Teen Regular merupakan upaya KollaSpace dalam mendukung generasi penerus bangsa yang memiliki passion dalam dunia teknologi agar mampu berkarya sejak dini.
+                                </h5>
+                                <a class="ms-layer sbut2 white2"
+                                style="left: 20px; top: 320px;"
+                                data-type="text"
+                                data-delay="1000"
+                                data-ease="easeOutExpo"
+                                data-duration="1200"
+                                data-effect="scale(1.5,1.6)"
+                                href="coding-teen" 
+                                >
+                                    Lihat Lebih Detail &nbsp;<i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="ms-thumb">
+                                    <h6>Coding Teen<em>Programming Class For Teenager</em></h6>
+                                </div>
+                            </div>
+                            <div class="ms-slide">
+                                <img src="images/images-slider-kolla-edu/kolla-education-slider-program-coding-101.jpg" alt=""/> 
+                                <h3 class="ms-layer text11 caps"
+                                style="left: 20px; top: 150px;"
+                                data-type="text"
+                                data-effect="top(45)"
+                                data-duration="2000"
+                                data-delay="100"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding 101
+                                </h3>
+                                <h5 class="ms-layer text3"
+                                style="left: 20px; top: 210px;"
+                                data-type="text"
+                                data-effect="bottom(45)"
+                                data-duration="2000"
+                                data-delay="500"
+                                data-ease="easeOutExpo"
+                                >
+                                    Coding 101 merupakan kelas prmograman yang ditujukan bagi orang-orang yang ingin belajar bahasa pemograman.
+                                </h5>
+                                <a class="ms-layer sbut2"
+                                style="left: 20px; top: 320px; background-color: yellow; color: black;"
+                                data-type="text"
+                                data-delay="1000"
+                                data-ease="easeOutExpo"
+                                data-duration="1200"
+                                data-effect="scale(1.5,1.6)"
+                                href="coding-101" 
+                                >
+                                    Ikuti Trial Class Gratis! &nbsp;<i class="fa fa-angle-right"></i>
+                                </a>
+                                <div class="ms-thumb">
+                                    <h6>Coding 101<em>Programming Class For Beginner</em></h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        <!--Slider END-->
+        <!--Upcomming Programs START-->
+            <div class="featured_section142">
+                <div class="container">
+                    <div class="stcode_title14">
+                        <h3 class="title25">Events Calendar<div class="line"></div></h3>
+                        <div id="caldiv">
+                            <iframe src="https://calendar.google.com/calendar/embed?src=puspita.gitacitra%40gmail.com&ctz=Asia/Jakarta" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
+        <!--Upcomming Programs END-->            
+        <!--Recent Blog START-->
+            <div class="featured_section24">
+                <div class="container">
+                    <h3 class="title25">Facilities<div class="line"></div></h3>       
+                    Soon
+                </div>
+            </div>     
+        <!--Recent Blog END--> 
+        <!--Testimoni START-->
+            <div class="featured_section12 animate" data-anim-type="fadeIn" data-anim-delay="200">
+                <div class="container">
+                    <h3 class="title25">Rooms Gallery<div class="line"></div></h3>
+                    Soon
+                </div>
+            </div>
+        <!--Testimoni START-->    
+        <div class="featured_section92">
+            <div class="clearfix margin_top6"></div>
+            <div class="container">
+                <h3 class="title25">Testimony<div class="line"></div></h3>  
+                 <div class="one_half">
+                    <div id="owl-demo16" class="owl-carousel">
+                        <div class="item">
+                            <h5 class="roboto">Coding Mum Jakarta Batch 1</h5>
+                            <p>" Sebelum mengikuti Coding Mum saya adalah IRT biasa yang tidak tahu mengenai <i>programming</i>. Setelah mengikuti Coding Mum, saya banyak belajar dan dibantu untuk mengerti programming khususnya di-<i>frontend development</i> dimana diakhir kelas diajarkan untuk membuat website sendiri. Setelah mengikuti Coding Mum saya berkesempatan untuk mengikuti project dari Garuda, yaitu pembuatan kios digital. Selain itu saya juga membuat website sendiri yaitu catatancoding.com. Saya ingin berterimakasih kepada Coding Mum karena telah memberikan saya kesempatan untuk belajar mengenai dunia pemograman lebih lanjut. "</p>
+                            <div class="who">
+                                <img class="testimoni" src="images/testimoni-kolla-education/kolla-education-peserta-coding-mum-bekraf-maria-octaviany.png" alt="" class="rimg" />
+                                <strong>Maria Octaviany <br />
+                                <em>Alumni Coding Mum Jakarta Batch 1</em></strong>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h5 class="roboto">Coding Mum Bandung</h5>
+                            <p>" Saya adalah IRT biasa yang punya hobi <i>crafting</i> untuk membuat sesuatu <i>handmade</i> yang dijahit sendiri seperti tas dan <i>pouch</i>. Motivasi mempelajari hal baru <i>programing</i>, membuat media promosi digital untuk mempromisikan produk yang dihasilkan. Selama belajar di kelas Coding Mum, pengalamanya seru dan teman-teman baru dibantu oleh mentor2 yg profesional. Belajar mulai dari HTML, CSS, JavaScript, PHP, dan MySQL yang merupakan bekal yang sangat cukup untuk menjadi seorang <i>frontend developer</i>. Hasil dari Coding Mum, saya bisa menjadi <i>tester</i> atau <i>bug hunter</i> di Tokopedia untuk mengevaluasi aplikasi sebeum aplikasi diluncurkan dan juga saya di-<i>hire</i> oleh perusahan Latex Indi untuk menjadi <i>freelance frontend developer</i>. "</p>
+                            <div class="who">
+                                <img class="testimoni" src="images/testimoni-kolla-education/kolla-education-peserta-coding-mum-bekraf-hortensia-juniar.png" alt="" class="rimg" />
+                                <strong>Hortensia Junia<br />
+                                <em>Alumni Coding Mum Bandung</em></strong>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h5 class="roboto">Coding Mum Singapura</h5>
+                            <p>" Hallo nama saya Munnah Munnatun. Saya berasal dari Cilacap Jawa Tengah dan sekarang saya bekerja di Singapore sebagai PMI Rumah Tangga. Kesan saya mengikuti kegiatan Coding Mum, saya bangga bisa berada di sini dan bisa membuka usaha sendiri dan saya sangat senang. <i>Very awesome, Coding Mum!</i>"</p>
+                            <div class="who">
+                                <img class="testimoni" src="images/testimoni-kolla-education/kolla-education-peserta-coding-mum-bekraf-munnah-munnatun.png" alt="" class="rimg" />
+                                <strong>Munnah Munnatun <br />
+                                <em>Alumni Coding Mum Singapura</em></strong>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="one_half last">
+                </div>         
+            </div>
+            <div class="clearfix margin_top6"></div>
+        </div>   
+        <!--Our Clients START-->
+        <div class="client_logos3">
+            <div class="container">
+                <h3 class="title25"> Partners & Clients <div class="line"></div></h3>
+                <ul class="animate" data-anim-type="fadeIn" data-anim-delay="200">
+                    <li><img src="images/logo-client/kolla-client-logo-gojek.png" id="logo-gojek" ></li>
+                    <li><img src="images/logo-client/kolla-client-logo-mandiri.png" id="logo-mandiri" ></li>
+                    <li><img src="images/logo-client/kolla-client-logo-bekraf.png" id="logo-bekraf" ></li>
+                    <li><img src="images/logo-client/kolla-client-logo-kemen-PAN-RB.png" id="logo-kemen-PAN-RB" ></li>
+                    <li class="hidden-sm hidden-md hidden-lg"><img src="images/logo-client/kolla-client-logo-insan.png" id="logo-insan" ></li>
+                    <li class="last hidden-xs"><img src="images/logo-client/kolla-client-logo-insan.png" id="logo-insan" ></li>
+                </ul>
+            </div>
         </div>
-    </div>
+        <!--Our Clients END-->       
+        <!--Map+Address START-->   
+        <div class="featured_section141 hidden-md hidden-lg hidden-sm">
+            <div class="container">
+                <h3 class="title25"> Partners & Clients <div class="line"></div></h3>
+                <ul class="animate" data-anim-type="fadeIn" data-anim-delay="200">
+                    <li><img src="images/logo-client/kolla-client-logo-gojek.png" id="logo-gojek" ></li>
+                    <li><img src="images/logo-client/kolla-client-logo-mandiri.png" id="logo-mandiri" ></li>
+                    <li><img src="images/logo-client/kolla-client-logo-bekraf.png" id="logo-bekraf" ></li>
+                    <li><img src="images/logo-client/kolla-client-logo-kemen-PAN-RB.png" id="logo-kemen-PAN-RB" ></li>
+                    <li class="hidden-sm hidden-md hidden-lg"><img src="images/logo-client/kolla-client-logo-insan.png" id="logo-insan" ></li>
+                    <li class="last hidden-xs"><img src="images/logo-client/kolla-client-logo-insan.png" id="logo-insan" ></li>
+                </ul>
+                <div class="clearfix margin_top3"></div>
+                <div class="one_half animate" data-anim-type="fadeInUp" data-anim-delay="200">
+                    <i class="fa fa-map-marker"  style="color:#a52714;"></i>
+                    <span>
+                    <strong>
+                    Kolla Sabang
+                    </strong>
+                    Jl. H. Agus Salim no. 32B, lantai 2<br/>
+                    Kebon Sirih, Menteng<br/>
+                    Jakarta Pusat 10340<br/>
+                    Indonesia
+                    (021) 50201021<br/>
+                    <a href="mailto:info@kolla.education">info@kolla.education</a><br/>
+                    <a href="http://www.kolla.education">www.kolla.education</a><br/>
+                    </span>                
+                </div>
+                <div class="one_half last animate" data-anim-type="fadeInUp" data-anim-delay="300">
+                    <i class="fa fa-map-marker"  style="color:#097138;"></i>
+                    <span>
+                    <strong>
+                    Kolla Kedoya
+                    </strong>
+                    Jl. H. Agus Salim no. 32B, lantai 2<br/>
+                    Kebon Sirih, Menteng<br/>
+                    Jakarta Pusat 10340<br/>
+                    Indonesia
+                    (021) 50201021<br/>
+                    <a href="mailto:info@kolla.education">info@kolla.education</a><br/>
+                    <a href="http://www.kolla.education">www.kolla.education</a><br/>
+                    </span>                
+                </div>
+            </div>
+        </div>     
+        <div class="featured_section67">
+            <div class="fgmapfull2">
+            <iframe src="https://www.google.com/maps/d/embed?mid=1ApiO5lsizqy3bNJs_6G5oOa-cjE" width="640" height="480"></iframe>
+            </div>
+            <div class="ongmp_address"></div>
+            <div class="container hidden-xs">
+                <div class="box">
+                    <span>
+                    <i class="fa fa-map-marker"  style="color:#a52714;"></i>
+                    <strong>
+                    Kolla Space Sabang
+                    </strong>
+                    Jl. H. Agus Salim no. 32B, lantai 2<br/>
+                    Kebon Sirih, Menteng<br/>
+                    Jakarta Pusat 10340<br/>
+                    Indonesia
+                    (021) 50201021<br/>
+                    <a href="mailto:info@kolla.education">info@kolla.education</a><br/>
+                    <a href="http://www.kolla.education">www.kolla.education</a><br/>
+                    </span>
+                </div>
+                <div class="box">
+                    <span>
+                    <i class="fa fa-map-marker"  style="color:#097138;"></i>
+                    <strong>
+                    Kolla Space Kedoya
+                    </strong>
+                    Jl. Kedoya Albasia Raya Blok B XI no. 13<br/>
+                    Kedoya Selatan, Kebun Jeruk<br/>
+                    Jakarta Barat 11520<br/>
+                    Indonesia<br/>
+                    (021) 50201021<br/>
+                    <a href="mailto:info@kolla.education">info@kolla.education</a><br/>
+                    <a href="http://www.kolla.education">www.kolla.education</a><br/>
+                    </span>
+                </div>
+            </div>
+        </div>  
+        <footer class="footer6">
+            <div class="container">
+                <div class="column2 animate" data-anim-type="fadeIn" data-anim-delay="100">
+                    <h3>About</h3>
+                    <p>
+                    KollaSpace hadir untuk ikut mengenalkan literasi teknologi agar masyarakat tidak hanya menjadi pengguna teknologi saja, namun juga memahami, mengembangkan dan mampu membuat teknologi sebagai solusi masalah sehari-hari. KollaSpace memiliki moto, <i>"Lembaga edukasi untuk literasi teknologi"</i>.
+                    </p>
+                </div>
+                <div class="column2 animate" data-anim-type="fadeIn" data-anim-delay="150">
+                    <h3 style="padding-left: 20px">Our Program</h3>
+                    <ul>
+                        <li><a href="coding-mum-bekraf">Coding Mum Bekraf</a></li>
+                        <li><a href="go-scholartech-ror" target="_blank">Go Scholar Ruby On Rails</a></li>
+                        <li><a href="coding-mum-regular">Coding Mum Regular</a></li>
+                        <li><a href="coding-teen">Coding Teen</a></li>
+                        <li><a href="coding-101">Coding 101</a></li>
+                        <li><a href="laravel-mongo-db">Laravel MongoDB</a></li>
+                    </ul>
+                </div>
+<!--
+                <div class="column1 animate" data-anim-type="fadeIn" data-anim-delay="200">
+                    <h3>Our Clients</h3>
+                    <ul class="clogos">
+                        <li><img src="images/logo-client/kolla-client-logo-gojek.png"></li>
+                        <li><img src="images/logo-client/kolla-client-logo-mandiri.png"></li>
+                        <li><img src="images/logo-client/kolla-client-logo-bekraf.png"></li>
+                        <li><img src="images/logo-client/kolla-client-logo-kemen-PAN-RB.png"></li>
+                        <li><img src="images/logo-client/kolla-client-logo-insan.png"></li>
+                    </ul>
+                </div>
+-->
+                <div class="column1 last animate" data-anim-type="fadeIn" data-anim-delay="250">
+                    <h3>Get Connected</h3>
+                    <ul class="footer_social_links3 styltwo">
+                        <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://www.facebook.com/kollanomad" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://twitter.com/KollaNomad" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://www.linkedin.com/company/kolla-space" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="animate zoomIn" data-anim-type="zoomIn" data-anim-delay="300"><a href="https://www.instagram.com/kollanomad" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                    <!-- 
+                    <div class="clearfix margin_top2"></div>
+                    <div class="input-group margin">
+                        <input type="text" class="form-control" placeholder="Enter Your Email">
+                        <span class="input-group-btn">
+                            <button type="button" class="btn btn-primary btn-flat">Subscribe!</button>
+                        </span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="copyright_info4">
+                <div class="container">
+                    <div class="clearfix divider_dashed10"></div>
+                    <div class="one_half animate" data-anim-type="fadeInRight" data-anim-delay="200">
+                        Copyright © 2017 Kolla. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <a href="#" class="scrollup">Scroll</a>
 </div>
-<script type="text/javascript" src="js/comingsoon/jquery.flipTimer.js"></script>
+<script type="text/javascript" src="js/universal/jquery.js"></script>
+<script type="text/javascript" src="js/masterslider/masterslider.min.js"></script>
+<script type="text/javascript" src="js/readmore/readmore.js"></script>
+<script type="text/javascript">     
+    var slider = new MasterSlider();
+    slider.control('thumblist' , {autohide:false ,dir:'h', type:'tabs',width:234,height:116, align:'bottom', space:0 , margin:-12, hideUnder:400});
+    
+    slider.setup('masterslider' , {
+        width:1170,
+        height:430,
+        space:0,
+        layout:'fullwidth',
+        autoplay:true,
+        preload:'all',
+        view:'basic'
+    });
+</script>
+
 <script type="text/javascript" src="js/animations/js/animations.min.js"></script>
+<script type="text/javascript" src="js/mainmenu/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/scrolltotop/totop.js"></script>
+<script type="text/javascript" src="js/carouselowl/owl.carousel.js"></script>
+<script type="text/javascript" src="js/universal/custom.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.fulltext').hide();
+
+        $('.blog-item .readmore').click(function (event) {
+            event.preventDefault();
+            $(this).parent().find('.fulltext').slideToggle('slow');
+            $(this).text($(this).text() == 'Sembunyikan...' ? 'Baca selengkapnya...' : 'Sembunyikan...');
+        });
+    });
+</script>
 </body>
 </html>
