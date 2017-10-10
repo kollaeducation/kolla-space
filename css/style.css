@@ -4785,7 +4785,6 @@
 /* featured section 92 */
 .featured_section92 {
 	float: left;
-    background-color: #f3f3f3;
 	width: 100%;
 }
 
@@ -8742,6 +8741,7 @@ ul.footer_social_links5 {
 	width: 100%;
 	text-align: center;
     padding: 50px 0px;
+    background-color: #f3f3f3;
 }
 .client_logos3 ul {
 	float: left;
