@@ -39,6 +39,9 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+.read-more{
+    color: white !important;
+}
 #denah{
     width: 1000px;
     height: auto;
@@ -2466,9 +2469,10 @@
 	color: #ccc;
 }
 .featured_section24 .one_half.last a {
-	color: #fff;
+	color: #e7c042;
 	transition: all 0.3s ease;
 	margin-top: 20px;
+    margin-bottom: 20px;
 }
 .featured_section24 .one_half.last a:hover {
 	color: #393939;
