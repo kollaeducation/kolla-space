@@ -356,8 +356,8 @@ ul.defaulf li {
 }
 
 ul, ol {
-	margin: 0 0 20px 0;
-	list-style-position: outside;
+	margin: 0 0 20px 20px;
+	list-style-position: inside;
 }
 ul {
 	list-style: none;
@@ -448,7 +448,7 @@ sub {
 
 /* Links */
 a {
-	color: #3e9cd0;
+	color: #e7c042;
 	text-decoration: none;
 	font-weight: bolder;
 }

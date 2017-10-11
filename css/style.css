@@ -39,6 +39,10 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+#denah{
+    width: 1000px;
+    height: auto;
+}
 .testimony-video{
     width: 100%;
     height: 450px;
@@ -4710,7 +4714,7 @@
 	float: left;
 	width: 100%;
 	padding: 115px 0px 140px 0px;
-	background: #f3f3f3;
+	background: #1e1c1c;
 }
 .featured_section91 .one_fourth {
 	background: #575757;
@@ -4777,7 +4781,6 @@
 }
 .featured_section91.two {
 	padding: 0px;
-	background: #fff;
 }
 
 
@@ -8741,7 +8744,6 @@ ul.footer_social_links5 {
 	width: 100%;
 	text-align: center;
     padding: 50px 0px;
-    background-color: #f3f3f3;
 }
 .client_logos3 ul {
 	float: left;
