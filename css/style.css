@@ -39,6 +39,21 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+#logo-unlimited{
+    width: 150px;
+    margin-left: 170px;
+}
+
+#logo-sim{
+    width: 150px;
+    margin-left: 50px;
+}
+
+#logo-get-gut{
+    width: 100px;
+    margin-left: 50px;
+}
+
 .read-more{
     color: white !important;
 }
@@ -5356,25 +5371,25 @@
 	text-align: center;
 	background: #f3f3f3;
 }
-.featured_section108 .one_fifth {
+.featured_section10 .one_fifth {
 	padding: 45px 20px;
 	background: #fff;
 	border-radius: 18px;
 	transition: all 0.3s ease;
 }
-.featured_section108 i {
+.featured_section10 i {
 	color: #f9bf36;
 	font-size: 55px;
 	margin-bottom: 20px;
 }
-.featured_section108 h5 {
+.featured_section10 h5 {
 	margin-bottom: 0px;
 }
-.featured_section108 .one_fifth:hover {
+.featured_section10 .one_fifth:hover {
 	background: #f9bf36;
 }
-.featured_section108 .one_fifth:hover i,
-.featured_section108 .one_fifth:hover h5 {
+.featured_section10 .one_fifth:hover i,
+.featured_section10 .one_fifth:hover h5 {
 	color: #fff;
 }
 
