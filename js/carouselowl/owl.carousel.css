@@ -342,7 +342,6 @@
 	margin-bottom: 3px;
 }
 
-
 #owl-demo16 .item {
 	border: 1px solid #eee;
 	text-align: center;
@@ -356,7 +355,7 @@
 }
 #owl-demo16 .item p {
 	width: 80%;
-	margin: 30px auto 75px auto;
+    margin: 30px auto 75px auto;
 }
 
 #owl-demo16 .item .who {

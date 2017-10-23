@@ -73,7 +73,7 @@
 }
 
 .img-gallery{
-	width: 562px;
+	width: 600px;
 	overflow: hidden;
 	text-align: center;	
 	margin: 0px auto;
@@ -4880,7 +4880,7 @@
 }
 .featured_section94 .right .box:hover {
 	color: #fff;
-	background: #3e9cd0;
+	background: #eac759;
 }
 .featured_section94 .right .box:hover span {
 	color: #fff;
@@ -6715,7 +6715,7 @@
 	width: 100%;
 	text-align: center;
 	padding: 120px 0px;
-	background: #393939 url("../images/site-img158.jpg");
+	background: #393939;
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -8997,7 +8997,7 @@ ul.footer_social_links5 {
 	width: 100%;
 	padding: 40px 0px;
 	margin-top: 100px;
-	background: #f3f3f3 url(../images/footer-graph3.png) no-repeat center bottom;
+	background: #f3f3f3;
 }
 .page_title2 h1 {
 	float: left;
