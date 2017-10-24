@@ -2851,7 +2851,9 @@ a.but_woman:hover {
 	padding: 25px 0px 32px 0px;
 	color: #fff;
 	background: #393939;
+    text-align: left;
 	margin-top: 45px;
+    padding-left: 50px;
 	line-height: 27px;
 }
 .pricingtable9 span i {
@@ -2864,6 +2866,8 @@ a.but_woman:hover {
 }
 .pricingtable9.two b {
 	color: #f9bf36;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
 
