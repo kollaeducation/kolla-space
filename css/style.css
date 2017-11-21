@@ -39,9 +39,19 @@
 /*----------------------------------------------------
 	SITE MAIN STRUCTURE
 ------------------------------------------------------*/
+#logo-papuan-centre{
+    width: 120px;
+    margin-left: 50px;
+}
+
+#logo-kerjaku{
+    width: 120px;
+    margin-left: 50px;
+}
+
 #logo-unlimited{
     width: 150px;
-    margin-left: 170px;
+    margin-left: 50px;
 }
 
 #logo-sim{
